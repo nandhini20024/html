@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        margin-left: 70px;
+      }
+
+      #title {
+        border: 1px solid black;
+        width: 600px;
+        font-weight: 70;
+        padding: 5px;
+      }
+      #radio {
+        position: relative;
+        left: 70px;
+      }
+      #check {
+        position: relative;
+        left: 70px;
+      }
+      #School {
+        position: relative;
+        top: 45px;
+      }
+      #extra {
+        position: relative;
+        top: 40px;
+      }
+      #last {
+        text-align: left;
+      }
+      #area {
+        position: relative;
+        left: 140px;
+        bottom: 130px;
+      }
+      #para {
+        position: relative;
+        bottom: 100px;
+      }
+      #files {
+        position: relative;
+        left: 140px;
+        bottom: 170px;
+      }
+      #but {
+        position: relative;
+        left: 130px;
+        bottom: 100px;
+      }
+      #one {
+        position: relative;
+        left: 30px;
+      }
+      #two {
+        position: relative;
+        left: 31px;
+      }
+      #three {
+        position: relative;
+        left: 53px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h4><u></u>Sample Output:</u></h4>
+
+      <h4>Figure 1.HTML form for user input</h4>
+      <h4 id="title">BCS350 Assignment 3--Student name</h4>
+      <h4>Create your Profile</h4>
+      <form action="">
+        <label for="">First Name:</label>
+        <input type="text" id="one" />
+        <br />
+        <br />
+        <label for="">Last Name:</label>
+        <input type="text" id="two" />
+        <br />
+        <br />
+        <label for="">EmailID:</label>
+        <input type="text" id="three" />
+        <br />
+        <br />
+        <label for="">Class Standing:</label>
+        <select name="" id="">
+          <option value="">Freshman</option>
+          <option value="">Experienced</option>
+        </select>
+        <br />
+        <br />
+        <label for="" id="School">Schools</label>
+        <div id="radio">
+          <input type="radio" name="css" />
+          <label for="">School of Arts and Science</label>
+          <br />
+          <input type="radio" name="css" />
+          <label for="">School of Business</label>
+          <br />
+          <input type="radio" name="css" />
+          <label for="">School of Engineering Technology</label>
+          <br />
+          <input type="radio" name="css" />
+          <label for="">School of Health science</label>
+        </div>
+
+        <label for="" id="extra">Extra</label>
+        <div id="check">
+          <input type="Checkbox" />
+          <label for="">Veteran</label>
+          <br />
+          <input type="Checkbox" />
+          <label for="">Transfer Student</label>
+          <br />
+          <input type="Checkbox" />
+          <label for="">International student</label>
+        </div>
+        <br />
+        <br />
+        <p>
+          Program and <br />other <br />
+          information you <br />
+          like to share
+        </p>
+        <textarea name="" id="area" cols="30" rows="10"></textarea>
+        <p id="para">
+          Upload your <br />profile picture <br />(JPG,GIF,PNG <br />or TIF
+          file)
+        </p>
+        <input type="file" id="files" />
+      </form>
+      <div id="but">
+        <input type="submit" />
+        <input type="reset" />
+      </div>
+    </div>
+  </body>
+</html>
